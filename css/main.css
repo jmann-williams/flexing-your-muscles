@@ -20,11 +20,13 @@ img {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 0;
   flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
-  align-items: center;
+
   color: #005e76;
 }
 
@@ -55,7 +57,7 @@ img {
 }
 
 .social > li {
-  padding: 0 .5em;
+  margin: 0 .5em;
   width: 3em;
 }
 
